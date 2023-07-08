@@ -22,6 +22,24 @@ nav {
     justify-content: center;
     align-items: center;
 
+    .mobile {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      display: none;
+      ul {
+        padding: 1em;
+        li {
+          margin: 1em 0;
+          a {
+            img {
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+
     .wrapper {
       top: 50%;
 
@@ -56,13 +74,14 @@ nav {
 
 .hero {
   height: 100vh;
-
+  margin-left: 155px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   .container {
     max-height: 655px;
+    display: flex;
 
     button {
       cursor: pointer;
@@ -123,6 +142,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 155px;
   .container {
     max-width: 1100px;
     display: flex;
@@ -150,6 +170,67 @@ nav {
       .tools {
         img {
           padding: 1em;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1135px) {
+  .hero {
+    margin-bottom: 40em;
+    .container {
+      flex-direction: column;
+    }
+    .image {
+      margin: 0;
+    }
+  }
+}
+@media only screen and (max-width: 850px) {
+  nav {
+    .sidebar {
+      .wrapper {
+        display: none;
+      }
+      .mobile {
+        display: block;
+      }
+    }
+  }
+  .hero {
+    margin-left: 62px;
+    .image {
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 350px;
+        min-height: 0;
+      }
+    }
+  }
+  .skills {
+    margin-left: 62px;
+    .container {
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .hero {
+    .image {
+      img {
+        max-width: 250px;
+      }
+    }
+    .container {
+      .text {
+        p {
+          font-size: 14px;
+        }
+        .headers {
+          font-size: 14px;
         }
       }
     }
