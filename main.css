@@ -150,6 +150,90 @@ nav .sidebar .wrapper ul li button:hover {
   padding: 1em;
 }
 
+.about {
+  background-color: #171817;
+  padding: 5em;
+  margin-top: 2em;
+}
+.about .container .text {
+  margin-left: 155px;
+}
+.about .container .text h2 {
+  margin: 1em;
+  color: #e6a749;
+}
+.about .container .text p {
+  max-width: 600px;
+  color: white;
+  margin: 0 0.5em;
+}
+
+.work {
+  margin-left: 155px;
+  margin-top: 4em;
+}
+.work .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.work .container h1 {
+  margin-bottom: 1em;
+  color: #e6a749;
+}
+.work .container .projects {
+  display: flex;
+}
+.work .container .projects .project {
+  max-width: 400px;
+  margin: 1em;
+  background-color: #171817;
+  padding: 1em;
+  border: 1px solid #e6a749;
+  border-radius: 15px;
+}
+.work .container .projects .project img {
+  max-width: 400px;
+}
+.work .container .projects .project .btns {
+  display: flex;
+  color: white;
+}
+.work .container .projects .project .btns a {
+  color: white;
+  text-decoration: none;
+}
+.work .container .projects .project .btns a:hover {
+  color: #e6a749;
+}
+.work .container .projects .project .btns p {
+  margin: 0 0.4em;
+}
+.work .container .projects .project h1 {
+  color: #e6a749;
+}
+.work .container .projects .project p {
+  color: white;
+}
+.work .container .projects .project:hover {
+  scale: 1.2;
+}
+
+@media only screen and (max-width: 1560px) {
+  .work .container .projects .project {
+    max-width: 300px;
+  }
+  .work .container .projects .project img {
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .work .container .projects {
+    max-width: 400px;
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 1135px) {
   .hero {
     margin-bottom: 40em;
@@ -170,6 +254,7 @@ nav .sidebar .wrapper ul li button:hover {
   }
   .hero {
     margin-left: 62px;
+    margin-bottom: 20em;
   }
   .hero .image {
     display: flex;
@@ -185,13 +270,25 @@ nav .sidebar .wrapper ul li button:hover {
   .skills .container {
     flex-direction: column;
   }
+  .work {
+    margin-left: 62px;
+  }
 }
 @media only screen and (max-width: 590px) {
+  .hero {
+    margin-bottom: 10em;
+  }
   .hero .image img {
     max-width: 250px;
   }
   .hero .container .text p {
     font-size: 14px;
+  }
+  .hero .container .text .learn-button {
+    padding: 0.6em 1.2em;
+  }
+  .hero .container .text .check-button {
+    padding: 0.2em 0.8em;
   }
   .hero .container .text .headers {
     font-size: 14px;
