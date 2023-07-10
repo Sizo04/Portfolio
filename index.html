@@ -10,9 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="/images/codingskill.png" />
     <link rel="stylesheet" href="main.css" />
 
-    <title>Document</title>
+    <title>Aleksandar Dimitrievski Portfolio</title>
   </head>
 
   <body>
@@ -59,7 +60,7 @@
             is looking to get his first job, learn more and have a succesful
             career as a Frontend Developer
           </p>
-          <button class="learn-button">Learn More</button>
+          <button onclick="Learn()" class="learn-button">Learn More</button>
           <p>
             What i offer:<br />
             I can help with the desing of certain websites. <br />
@@ -69,7 +70,9 @@
             I have great social skills. <br />
             I’m responsilbe and reliable. <br />
           </p>
-          <button class="check-button">Check my skill</button>
+          <button onclick="Check()" class="check-button" id="check">
+            Check my skill
+          </button>
           <div class="widgets">
             <a
               href="https://www.linkedin.com/in/aleksandar-dimitrievski-353827248/"
@@ -87,7 +90,7 @@
       </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
       <div class="container">
         <div class="text">
           <h2>.about me</h2>

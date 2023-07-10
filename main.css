@@ -185,6 +185,7 @@ nav .sidebar .wrapper ul li a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 5em;
 }
 .work .container h1 {
   margin-bottom: 1em;
