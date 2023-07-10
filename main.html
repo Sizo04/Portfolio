@@ -21,13 +21,13 @@
         <div class="mobile">
           <ul>
             <li>
-              <a href=""><img src="/images/home.png" alt="" /></a>
+              <a href="#hero"><img src="/images/home.png" alt="" /></a>
             </li>
             <li>
-              <a href=""><img src="/images/skills.png" alt="" /></a>
+              <a href="#skills"><img src="/images/skills.png" alt="" /></a>
             </li>
             <li>
-              <a href=""><img src="/images/work.png" alt="" /></a>
+              <a href="#work"><img src="/images/work.png" alt="" /></a>
             </li>
             <li>
               <a href=""><img src="" alt="" /></a>
@@ -36,16 +36,16 @@
         </div>
         <div class="wrapper">
           <ul>
-            <li><button>.home</button></li>
-            <li><button>.skills</button></li>
-            <li><button>.work</button></li>
-            <li><button>.resume</button></li>
+            <li class="links"><a href="#hero">.home</a></li>
+            <li class="links"><a href="#skills">.skills</a></li>
+            <li class="links"><a href="#work">.work</a></li>
+            <li class="links"><a href="">.resume</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="hero">
+    <div class="hero" id="hero">
       <div class="container">
         <div class="text">
           <div class="headers">
@@ -86,7 +86,28 @@
         </div>
       </div>
     </div>
-    <div class="skills">
+
+    <div class="about">
+      <div class="container">
+        <div class="text">
+          <h2>.about me</h2>
+          <p>
+            I am a self taught Front-end Developer. I love programming and
+            learning new things along the way.I have a good knowlage of the
+            basics of web development. Experienced in HTML, CSS and Javascript.
+            I can also work with: Bootstrap, SAAS, and Git. Have been working as
+            a web developer on my own projects for 3 years.
+          </p>
+        </div>
+        <div class="photos"></div>
+      </div>
+    </div>
+
+    <div class="skills" id="skills">
+      '
+      <div class="header">
+        <h1>.skills</h1>
+      </div>
       <div class="container">
         <div class="frame">
           <img class="main-pic" src="/images/designskill.png" alt="" />
@@ -122,25 +143,9 @@
       </div>
     </div>
 
-    <div class="about">
+    <div class="work" id="work">
       <div class="container">
-        <div class="text">
-          <h2>.about me</h2>
-          <p>
-            I am a self taught Front-end Developer. I love programming and
-            learning new things along the way.I have a good knowlage of the
-            basics of web development. Experienced in HTML, CSS and Javascript.
-            I can also work with: Bootstrap, SAAS, and Git. Have been working as
-            a web developer on my own projects for 3 years.
-          </p>
-        </div>
-        <div class="photos"></div>
-      </div>
-    </div>
-
-    <div class="work">
-      <div class="container">
-        <h1>My Projects</h1>
+        <h1>.work</h1>
         <div class="projects">
           <div class="project">
             <img src="/images/Luxor.png" alt="" />
@@ -192,5 +197,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

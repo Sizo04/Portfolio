@@ -2,6 +2,7 @@ $main-color: #e6a749;
 
 * {
   margin: 0;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -29,6 +30,7 @@ nav {
       display: none;
       ul {
         padding: 1em;
+        list-style-type: none;
         li {
           margin: 1em 0;
           a {
@@ -54,9 +56,9 @@ nav {
           position: relative;
           padding: 1em;
 
-          button {
-            font-size: 20px;
-            cursor: pointer;
+          a {
+            font-size: 16px;
+            text-decoration: none;
             position: relative;
             background-color: rgba(240, 248, 255, 0);
             border: none;
@@ -143,6 +145,12 @@ nav {
   align-items: center;
   justify-content: center;
   margin-left: 155px;
+  padding: 10em 0;
+  flex-direction: column;
+  .header {
+    color: $main-color;
+    margin-bottom: 2em;
+  }
   .container {
     max-width: 1100px;
     display: flex;
