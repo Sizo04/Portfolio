@@ -67,7 +67,7 @@ nav .sidebar .wrapper ul li a:hover {
 
 .hero {
   height: 100vh;
-  margin-left: 155px;
+  margin-left: 124px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,7 +122,7 @@ nav .sidebar .wrapper ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 155px;
+  margin-left: 124px;
   padding: 10em 0;
   flex-direction: column;
 }
@@ -177,7 +177,7 @@ nav .sidebar .wrapper ul li a:hover {
 }
 
 .work {
-  margin-left: 155px;
+  margin-left: 124px;
   margin-top: 4em;
 }
 .work .container {
@@ -273,6 +273,13 @@ nav .sidebar .wrapper ul li a:hover {
     max-width: 350px;
     min-height: 0;
   }
+  .about {
+    margin-left: 62px;
+    padding: 2em;
+  }
+  .about .container .text {
+    margin-left: 0;
+  }
   .skills {
     margin-left: 62px;
   }
@@ -301,5 +308,14 @@ nav .sidebar .wrapper ul li a:hover {
   }
   .hero .container .text .headers {
     font-size: 14px;
+  }
+  .about .container .text {
+    font-size: 12px;
+  }
+  .work .container .projects {
+    max-width: 300px;
+  }
+  .work .container .projects .project img {
+    max-width: 230px;
   }
 }/*# sourceMappingURL=main.css.map */

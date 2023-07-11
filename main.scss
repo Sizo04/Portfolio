@@ -76,7 +76,7 @@ nav {
 
 .hero {
   height: 100vh;
-  margin-left: 155px;
+  margin-left: 124px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,7 +144,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 155px;
+  margin-left: 124px;
   padding: 10em 0;
   flex-direction: column;
   .header {
@@ -205,7 +205,7 @@ nav {
 }
 
 .work {
-  margin-left: 155px;
+  margin-left: 124px;
   margin-top: 4em;
   .container {
     display: flex;
@@ -316,6 +316,15 @@ nav {
       }
     }
   }
+  .about {
+    margin-left: 62px;
+    padding: 2em;
+    .container {
+      .text {
+        margin-left: 0;
+      }
+    }
+  }
   .skills {
     margin-left: 62px;
     .container {
@@ -348,6 +357,25 @@ nav {
         }
         .headers {
           font-size: 14px;
+        }
+      }
+    }
+  }
+  .about {
+    .container {
+      .text {
+        font-size: 12px;
+      }
+    }
+  }
+  .work {
+    .container {
+      .projects {
+        max-width: 300px;
+        .project {
+          img {
+            max-width: 230px;
+          }
         }
       }
     }
