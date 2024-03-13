@@ -23,6 +23,9 @@ nav .sidebar {
   justify-content: center;
   align-items: center;
 }
+nav .sidebar a:active {
+  color: #e6a749;
+}
 nav .sidebar .mobile {
   display: flex;
   text-align: center;
@@ -179,6 +182,10 @@ nav .sidebar .wrapper ul li a:hover {
 .work {
   margin-left: 124px;
   margin-top: 4em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .work .container {
   display: flex;
@@ -201,6 +208,7 @@ nav .sidebar .wrapper ul li a:hover {
   padding: 1em;
   border: 1px solid #e6a749;
   border-radius: 15px;
+  transition: all 0.5s ease-out;
 }
 .work .container .projects .project img {
   max-width: 400px;
@@ -227,6 +235,28 @@ nav .sidebar .wrapper ul li a:hover {
 }
 .work .container .projects .project:hover {
   scale: 1.2;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+.work .more-btn {
+  color: #e6a749;
+  text-decoration: none;
+  border: 2px solid #e6a749;
+  padding: 1em 1.5em;
+}
+.work .more-btn:hover {
+  background-color: #e6a749;
+  color: #1d1e1d;
+}
+
+::-webkit-scrollbar {
+  background-color: #171817;
+  max-width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e6a749;
+  width: 5px;
 }
 
 @media only screen and (max-width: 1560px) {

@@ -23,6 +23,10 @@ nav {
     justify-content: center;
     align-items: center;
 
+    a:active{
+      color: $main-color;
+    }
+
     .mobile {
       display: flex;
       text-align: center;
@@ -67,6 +71,7 @@ nav {
             &:hover {
               color: $main-color;
             }
+            
           }
         }
       }
@@ -207,6 +212,10 @@ nav {
 .work {
   margin-left: 124px;
   margin-top: 4em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   .container {
     display: flex;
     align-items: center;
@@ -226,6 +235,8 @@ nav {
         padding: 1em;
         border: 1px solid $main-color;
         border-radius: 15px;
+        transition: all .5s ease-out;
+        
         img {
           max-width: 400px;
         }
@@ -251,10 +262,35 @@ nav {
         }
         &:hover {
           scale: 1.2;
+          transition: all .5s ease-in-out;
+          z-index: 1;
         }
       }
     }
   }
+
+  .more-btn{
+    color: $main-color;
+    text-decoration: none;
+    border: 2px solid $main-color;
+    padding: 1em 1.5em;
+
+    &:hover{
+      background-color: $main-color;
+      color:#1d1e1d;
+    }
+
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: #171817;
+  max-width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $main-color;
+  width: 5px;
 }
 
 @media only screen and (max-width: 1560px) {
