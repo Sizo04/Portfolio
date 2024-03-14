@@ -208,7 +208,7 @@ nav .sidebar .wrapper ul li a:hover {
   padding: 1em;
   border: 1px solid #e6a749;
   border-radius: 15px;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
 }
 .work .container .projects .project img {
   max-width: 400px;
@@ -235,7 +235,7 @@ nav .sidebar .wrapper ul li a:hover {
 }
 .work .container .projects .project:hover {
   scale: 1.2;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   z-index: 1;
 }
 .work .more-btn {

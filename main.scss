@@ -235,7 +235,7 @@ nav {
         padding: 1em;
         border: 1px solid $main-color;
         border-radius: 15px;
-        transition: all .5s ease-out;
+        transition: all .3s ease-out;
         
         img {
           max-width: 400px;
@@ -262,7 +262,7 @@ nav {
         }
         &:hover {
           scale: 1.2;
-          transition: all .5s ease-in-out;
+          transition: all .3s ease-in-out;
           z-index: 1;
         }
       }
