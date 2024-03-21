@@ -266,6 +266,15 @@ nav {
           z-index: 1;
         }
       }
+
+      blockquote{
+        display: flex;
+        max-width: 100%;
+
+        article{
+          margin: 1em 0.5em;
+        }
+      }
     }
   }
 
@@ -291,6 +300,41 @@ nav {
 ::-webkit-scrollbar-thumb {
   background: $main-color;
   width: 5px;
+}
+
+.skill-tag{
+  display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.1em;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.html-tag{
+  border-color: orange;
+  color: orange;
+}
+
+.css-tag{
+  border-color: #2596be;
+  color: #2596be;
+}
+
+.js-tag{
+  border-color: #fffc04;
+  color: #fffc04;
+}
+
+.saas-tag{
+  border-color: #f064cc;
+  color: #f064cc;
+}
+
+.react-tag{
+  border-color: #08d4fc;
+  color: #08d4fc;
 }
 
 @media only screen and (max-width: 1560px) {

@@ -238,6 +238,13 @@ nav .sidebar .wrapper ul li a:hover {
   transition: all 0.3s ease-in-out;
   z-index: 1;
 }
+.work .container .projects blockquote {
+  display: flex;
+  max-width: 100%;
+}
+.work .container .projects blockquote article {
+  margin: 1em 0.5em;
+}
 .work .more-btn {
   color: #e6a749;
   text-decoration: none;
@@ -257,6 +264,41 @@ nav .sidebar .wrapper ul li a:hover {
 ::-webkit-scrollbar-thumb {
   background: #e6a749;
   width: 5px;
+}
+
+.skill-tag {
+  display: flex;
+  width: 80px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.1em;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.html-tag {
+  border-color: orange;
+  color: orange;
+}
+
+.css-tag {
+  border-color: #2596be;
+  color: #2596be;
+}
+
+.js-tag {
+  border-color: #fffc04;
+  color: #fffc04;
+}
+
+.saas-tag {
+  border-color: #f064cc;
+  color: #f064cc;
+}
+
+.react-tag {
+  border-color: #08d4fc;
+  color: #08d4fc;
 }
 
 @media only screen and (max-width: 1560px) {
