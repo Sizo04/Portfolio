@@ -23,9 +23,7 @@ nav {
     justify-content: center;
     align-items: center;
 
-    a:active{
-      color: $main-color;
-    }
+    
 
     .mobile {
       display: flex;
@@ -71,8 +69,14 @@ nav {
             &:hover {
               color: $main-color;
             }
+
+             
+            
             
           }
+          .active{
+            color: $main-color;
+           }
         }
       }
     }
